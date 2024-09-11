@@ -19,4 +19,9 @@ print("rastgele seçilen sayi: \(sayi)")
 
 
 
-func kitabismivesayfası()
+func kitapismivesayfasi() -> (kitap: String, sayfa: Int) {
+    return (kitap: "Old Tractors and the men who love them" , sayfa: 32)
+}
+//fonksiyon cağır
+let kitapsayfa = kitapismivesayfasi()
+print("kitap İsmi: \(kitapismivesayfasi().kitap), Sayfa: \(kitapismivesayfasi().sayfa)")
